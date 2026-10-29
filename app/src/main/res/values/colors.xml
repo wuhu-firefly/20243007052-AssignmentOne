@@ -2,4 +2,14 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- Theme colours used by the CampusLife home screen (see Part C). -->
+    <color name="green">#1B5E20</color>
+    <color name="light_green">#66BB6A</color>
+
+    <!-- Neutral button background used before the colour scheme is applied. -->
+    <color name="button_grey">#FFBDBDBD</color>
+
+    <!-- Soft shadow behind the white banner title so it stays readable on the photo. -->
+    <color name="text_shadow">#80000000</color>
 </resources>

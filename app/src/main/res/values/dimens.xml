@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        All text sizes and spacing values live here so the layouts stay free of
+        hard-coded sizes and can be tuned in one place.
+        The brief allows exactly one fixed text size: the banner title (40sp).
+    -->
+    <dimen name="banner_title_text_size">40sp</dimen>
+    <dimen name="topic_label_text_size">16sp</dimen>
+
+    <dimen name="spacing_tiny">4dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_medium">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+
+    <dimen name="button_corner_radius">4dp</dimen>
+    <dimen name="button_icon_padding">16dp</dimen>
+</resources>
