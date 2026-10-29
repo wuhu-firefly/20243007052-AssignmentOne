@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Detail screen: shows the banner, the topic icon and title, then the topic text.
+    Everything is inside a ScrollView because the topic text can be very long.
+-->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/detail_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- ================= Header ================= -->
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- Banner keeps the aspect ratio of the photo, capped so it cannot
+                 become taller than the screen in landscape. -->
+            <ImageView
+                android:id="@+id/img_detail_banner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:contentDescription="@string/banner_description"
+                android:foreground="@color/header_scrim"
+                android:maxHeight="@dimen/detail_header_max_height"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_main_banner" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingStart="@dimen/spacing_large"
+                android:paddingEnd="@dimen/spacing_medium">
+
+                <ImageView
+                    android:id="@+id/img_detail_icon"
+                    android:layout_width="@dimen/detail_header_icon_size"
+                    android:layout_height="@dimen/detail_header_icon_size"
+                    android:contentDescription="@string/facilities"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/img_btn_facilities" />
+
+                <TextView
+                    android:id="@+id/txt_detail_header"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingStart="@dimen/spacing_medium"
+                    android:text="@string/facilities"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/detail_header_title_text_size" />
+            </LinearLayout>
+        </FrameLayout>
+
+        <!-- ================= Topic text ================= -->
+        <TextView
+            android:id="@+id/txt_detail_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/spacing_medium"
+            android:text="@string/placeholder_title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/detail_title_text_size"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_detail_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingStart="@dimen/spacing_medium"
+            android:paddingEnd="@dimen/spacing_medium"
+            android:paddingBottom="@dimen/spacing_large"
+            android:text="@string/placeholder_content"
+            android:textColor="@color/black"
+            android:textSize="@dimen/detail_body_text_size" />
+    </LinearLayout>
+</ScrollView>

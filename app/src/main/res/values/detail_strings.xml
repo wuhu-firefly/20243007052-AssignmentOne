@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Detail screen placeholder text (replaced by the arrays in Part H) -->
+    <string name="placeholder_title">This is a title</string>
+    <string name="placeholder_content">This is content</string>
+</resources>
