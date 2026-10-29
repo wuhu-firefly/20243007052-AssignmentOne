@@ -65,6 +65,10 @@ Support), in the same order.
 Requirements: Android Studio (or the command line Gradle wrapper) with JDK 17+,
 Android SDK Platform 36 installed.
 
+Toolchain: AGP **9.3.0** with the Gradle **9.6.0** wrapper. AGP 9.3.0 is the newest
+plugin supported by Android Studio 2026.1, so the project syncs in the IDE as well
+as from the command line.
+
 ```bash
 # command line
 ./gradlew assembleDebug          # APK in app/build/outputs/apk/debug/
