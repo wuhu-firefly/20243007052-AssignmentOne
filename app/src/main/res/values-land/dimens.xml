@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Landscape override: the screen is much shorter, so the detail banner is
+        capped at a smaller height to leave room for the text.
+    -->
+    <dimen name="detail_header_max_height">160dp</dimen>
+</resources>

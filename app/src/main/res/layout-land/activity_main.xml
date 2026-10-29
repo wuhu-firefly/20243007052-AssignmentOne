@@ -64,12 +64,12 @@
 
             <ImageButton
                 android:id="@+id/btn_facilities"
-                android:onClick="onFacilitiesClicked"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:background="@drawable/btn_selector"
                 android:contentDescription="@string/facilities"
+                android:onClick="onFacilitiesClicked"
                 android:padding="@dimen/button_icon_padding"
                 android:scaleType="fitCenter"
                 android:src="@drawable/img_btn_facilities" />
@@ -95,12 +95,12 @@
 
             <ImageButton
                 android:id="@+id/btn_events"
-                android:onClick="onEventsClicked"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:background="@drawable/btn_selector"
                 android:contentDescription="@string/events"
+                android:onClick="onEventsClicked"
                 android:padding="@dimen/button_icon_padding"
                 android:scaleType="fitCenter"
                 android:src="@drawable/img_btn_events" />
@@ -126,12 +126,12 @@
 
             <ImageButton
                 android:id="@+id/btn_clubs"
-                android:onClick="onClubsClicked"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:background="@drawable/btn_selector"
                 android:contentDescription="@string/clubs"
+                android:onClick="onClubsClicked"
                 android:padding="@dimen/button_icon_padding"
                 android:scaleType="fitCenter"
                 android:src="@drawable/img_btn_clubs" />
@@ -157,12 +157,12 @@
 
             <ImageButton
                 android:id="@+id/btn_support"
-                android:onClick="onSupportClicked"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:background="@drawable/btn_selector"
                 android:contentDescription="@string/support"
+                android:onClick="onSupportClicked"
                 android:padding="@dimen/button_icon_padding"
                 android:scaleType="fitCenter"
                 android:src="@drawable/img_btn_support" />

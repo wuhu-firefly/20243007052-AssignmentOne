@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+        Short names shown in the detail screen header. The order must match
+        string_array_titles / string_array_content / string_array_images in arrays.xml,
+        because the topic index selected on the home screen indexes all of them.
+    -->
+    <string-array name="string_array_short_titles">
+        <item>Facilities</item>
+        <item>Events</item>
+        <item>Clubs</item>
+        <item>Support</item>
+    </string-array>
+</resources>
