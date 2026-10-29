@@ -7,7 +7,6 @@
     android:id="@+id/detail_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
     android:fillViewport="true"
     android:fitsSystemWindows="true">
 
@@ -56,7 +55,7 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:paddingStart="@dimen/spacing_medium"
+                    android:layout_marginStart="@dimen/spacing_medium"
                     android:text="@string/facilities"
                     android:textColor="@color/white"
                     android:textSize="@dimen/detail_header_title_text_size" />

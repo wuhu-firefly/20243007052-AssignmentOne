@@ -8,7 +8,6 @@
     <dimen name="banner_title_text_size">40sp</dimen>
     <dimen name="topic_label_text_size">16sp</dimen>
 
-    <dimen name="spacing_tiny">4dp</dimen>
     <dimen name="spacing_small">8dp</dimen>
     <dimen name="spacing_medium">16dp</dimen>
     <dimen name="spacing_large">24dp</dimen>

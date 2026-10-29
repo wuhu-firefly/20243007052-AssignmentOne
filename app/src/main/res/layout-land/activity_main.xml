@@ -51,7 +51,8 @@
         android:layout_height="0dp"
         android:layout_weight="3"
         android:background="@color/green"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:baselineAligned="false">
 
         <!-- Facilities -->
         <LinearLayout

@@ -1,5 +1,6 @@
 package com.example.assignmentone;
 
+import android.annotation.SuppressLint;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.widget.ImageView;
@@ -26,6 +27,7 @@ public class DetailActivity extends AppCompatActivity {
     private static final int DEFAULT_TOPIC_INDEX = 0;
 
     @Override
+    @SuppressLint("DiscouragedApi") // The drawable names only exist as strings in arrays.xml.
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);

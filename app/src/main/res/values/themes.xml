@@ -3,10 +3,12 @@
     <style name="Base.Theme.AssignmentOne" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- The app is always drawn on a light (white / green) background, so keep
              the system bars light with dark icons. -->
+        <item name="android:windowBackground">@color/white</item>
         <item name="android:statusBarColor">@color/white</item>
         <item name="android:navigationBarColor">@color/white</item>
         <item name="android:windowLightStatusBar">true</item>
-        <item name="android:windowLightNavigationBar">true</item>
+        <!-- windowLightNavigationBar only exists from API 27; older devices ignore it. -->
+        <item name="android:windowLightNavigationBar" tools:targetApi="27">true</item>
     </style>
 
     <style name="Theme.AssignmentOne" parent="Base.Theme.AssignmentOne" />
