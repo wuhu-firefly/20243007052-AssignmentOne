@@ -10,4 +10,10 @@
     <string name="events">Events</string>
     <string name="clubs">Clubs</string>
     <string name="support">Support</string>
+
+    <!-- Confirmation messages shown when a topic button is tapped (Part E) -->
+    <string name="toast_facilities_clicked">Facilities clicked</string>
+    <string name="toast_events_clicked">Events clicked</string>
+    <string name="toast_clubs_clicked">Clubs clicked</string>
+    <string name="toast_support_clicked">Support clicked</string>
 </resources>
