@@ -28,7 +28,7 @@ text and icon taken from `values/arrays.xml`.
 | F | `DetailActivity` and its layout | `DetailActivity.java`, `res/layout/activity_detail.xml` |
 | G | Explicit Intent carrying a unique identifier | `MainActivity.openDetail()` → `DetailActivity.EXTRA_TOPIC_INDEX` |
 | H | Populate the detail screen from `arrays.xml` without `if`/`switch` | `DetailActivity.onCreate()`, `values/arrays.xml` |
-| I | Code quality: structure, comments, lint clean | JavaDoc on every class/method, `./gradlew lintDebug` passes |
+| I | Code quality: structure, comments, lint clean | JavaDoc on every class and method; `./gradlew lintDebug` finishes with zero errors (only performance hints about the nested weights used for the responsive grid) |
 
 ## 3. How the responsive layout works
 
@@ -100,15 +100,15 @@ committed; Android Studio creates it on first sync.
 One commit per part of the brief, so the marker can see the work progress:
 
 ```
-Part A: create AssignmentOne Android app (Empty Views Activity, Java, minSdk 24)
-Part B: build responsive home screen layout (banner + 2x2 topic grid, weights only)
-Part C: CampusLife name, launcher icon from logo, green palette and button selector
-Part D: landscape layout with the four topic buttons in a single row
-Part E: onClick events on both layouts with Toast confirmation
-Part F: add DetailActivity with responsive detail layout
-Part G: explicit Intent to DetailActivity carrying the topic index
-Part H: populate DetailActivity from arrays.xml using the topic index
-Part I: document the project and clean up code quality
+1452298 Part A: create AssignmentOne Android app (Empty Views Activity, Java, minSdk 24)
+436c9ab Part B: build responsive home screen layout (banner + 2x2 topic grid, weights only)
+367d9f3 Part C: CampusLife name, launcher icon from logo, green palette and button selector
+09bae8f Part D: add landscape layout showing the four topic buttons in one row
+b63d4e0 Part E: handle clicks on the topic buttons and confirm with a Toast
+417b980 Part F: add DetailActivity and the detail screen layout
+b3707de Part G: start DetailActivity with an explicit Intent that carries the topic index
+b1ac5cb Part H: fill the detail screen from arrays.xml using the topic index
+ef99061 Part I: document the project and tidy the code for readability
 ```
 
 To publish it (create the **empty**, **public** GitLab/GitHub repository
