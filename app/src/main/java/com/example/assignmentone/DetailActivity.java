@@ -14,6 +14,9 @@ import androidx.appcompat.app.AppCompatActivity;
  */
 public class DetailActivity extends AppCompatActivity {
 
+    /** Key of the Intent extra that identifies which topic to display. */
+    public static final String EXTRA_TOPIC_INDEX = "extra_topic_index";
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
