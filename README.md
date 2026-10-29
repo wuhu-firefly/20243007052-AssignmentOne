@@ -111,13 +111,9 @@ b1ac5cb Part H: fill the detail screen from arrays.xml using the topic index
 ef99061 Part I: document the project and tidy the code for readability
 ```
 
-To publish it (create the **empty**, **public** GitLab/GitHub repository
-`20243007052-AssignmentOne` first, then run):
-
-```bash
-git remote add origin https://gitlab.com/<your-username>/20243007052-AssignmentOne.git
-git push -u origin main
-```
+The repository is published (public) at
+**https://github.com/wuhu-firefly/20243007052-AssignmentOne** — this is the URL
+submitted on Canvas.
 
 ## 8. Project structure
 
